@@ -10,6 +10,11 @@ namespace TestGithubApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello world");
+            Console.ReadKey();
+
+            var name = Console.ReadLine();
+            Console.WriteLine($"Hello, {name}");
         }
     }
 }
